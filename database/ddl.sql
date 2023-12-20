@@ -23,3 +23,4 @@ CREATE TABLE match (
     UNIQUE(date, team_one_id, team_two_id)
 );
 
+
