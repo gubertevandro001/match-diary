@@ -22,3 +22,4 @@ CREATE TABLE match (
     team_supported_id INTEGER NOT NULL REFERENCES team(id) ON UPDATE CASCADE ON DELETE NO ACTION,
     UNIQUE(date, team_one_id, team_two_id)
 );
+
